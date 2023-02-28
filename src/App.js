@@ -12,7 +12,7 @@ function App() {
   // const [name, setName] = useState("Name");
   // const {Firebase}=useContext(FirebaseContext)
   const { name, setName } = useContext(NameContext);
-  const [view,setView]= useState('')
+  const [view,setView]= useState([])
 
   return (
     <>
